@@ -22,7 +22,7 @@ def get_all_products():
 
 # A route to get a specific product by the id
 @app.route("/api/v1/products/<int:id>", methods=["GET"])
-def get_product(id):
+def get_a_product(id):
     result = []
 
     # looped through the list of products to get an ID that matches
