@@ -33,5 +33,3 @@ def get_a_product(id):
     return jsonify(result)
 
 app.run()
-
-
